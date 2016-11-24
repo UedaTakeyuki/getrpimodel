@@ -1,4 +1,4 @@
-# rpimodel
+# getrpimodel
 Get Raspberry Pi model Name(eg: A, B, B+...)
 
 # install
