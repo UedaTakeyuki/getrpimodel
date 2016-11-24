@@ -10,7 +10,7 @@ The 'Model' string of the [following Table.](http://elinux.org/RPi_HardwareHisto
 Minter info in parentheses, like 'B (Beta)', 'B (ECN0001)	', and '2 Model B (with BCM2837)' are removed; or available with '--s' option, or 'model_strict()' function
 
 # How to use as python program
-python getrpimodel [--s] 
+python -m getrpimodel [--s] 
 
 # How to use as python library
 import getrpimodel
