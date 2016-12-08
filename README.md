@@ -10,7 +10,7 @@ pip install getrpimodel
 ## return
 The 'Model' string of the [following Table.](http://elinux.org/RPi_HardwareHistory) 
 
-Miner info in parentheses, like (Beta), (ECN0001), or (with BCM2837) are removed; or appear with '--s' option, or 'model_strict()' function
+Miner info in parentheses, like (Beta), (ECN0001), or (with BCM2837) are removed; or appear with '--s' option, or 'model_strict()' function.
 
 ## How to use 
 ### as python program.
