@@ -2,7 +2,10 @@
 Get Raspberry Pi model Name(eg: A, B, B+...)
 
 ## install
+
+```bash:
 pip install getrpimodel
+```
 
 ## return
 The 'Model' string of the [following Table.](http://elinux.org/RPi_HardwareHistory) 
