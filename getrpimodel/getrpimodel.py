@@ -61,7 +61,8 @@ def model_strict():
   elif rev in model_zero:
     return "Zero"
   else:
-    return None
+    return rev
+#    return None
 
 def model():
 #  rev = getpirevision.revision()
@@ -83,7 +84,8 @@ def model():
   elif rev in model_zero:
     return "Zero"
   else:
-    return None
+    return rev
+#    return None
 
 if __name__ == '__main__':
   if len(sys.argv) == 1:

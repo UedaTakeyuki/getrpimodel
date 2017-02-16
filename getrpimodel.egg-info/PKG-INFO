@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: getrpimodel
+Version: 0.1.6
+Summary: Get Raspberry Pi model Name(eg: A, B, B+...)
+Home-page: https://github.com/UedaTakeyuki/getrpimodel
+Author: Takeyuki UEDA
+Author-email: gde00107@nifty.com
+License: MIT
+Description: UNKNOWN
+Keywords: testing,logging,example
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Topic :: Terminals
