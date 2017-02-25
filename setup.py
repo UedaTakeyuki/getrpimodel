@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'getrpimodel',
   packages = ['getrpimodel'], # this must be the same as the name above
-  version = '0.1.9',
+  version = '0.1.11',
   description = 'Get Raspberry Pi model Name(eg: A, B, B+...)',
   author = 'Takeyuki UEDA',
   author_email = 'gde00107@nifty.com',
