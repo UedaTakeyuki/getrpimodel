@@ -8,7 +8,7 @@ pip install getrpimodel
 ```
 
 ## return
-String: 'Model Name' same string as the 'Model' column value of the [following Table.](http://elinux.org/RPi_HardwareHistory) 
+String: 'Model Name' same string as the 'Model' column value of the [following Table](http://elinux.org/RPi_HardwareHistory), like as "A", "B", "B+", "2 Model B", "3 Model B" and so on.
 
 Miner info in parentheses, like (Beta), (ECN0001), or (with BCM2837) are removed; or appear with '--s' option, or 'model_strict()' function.
 
