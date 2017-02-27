@@ -4,10 +4,7 @@
 
 #import getpirevision
 import re
-import sys
 
-
-usage = 'Usage: python -m getrpimodel [--s]'
 
 # model definition table from revision info.
 # refer http://elinux.org/RPi_HardwareHistory
@@ -84,16 +81,5 @@ def model():
   elif rev in model_zero:
     return "Zero"
   else:
-    return rev
-#    return None
-
-if __name__ == '__main__':
-  if len(sys.argv) == 1:
-    print (model())
-  elif len(sys.argv) == 2:
-    if sys.argv[1] == '--s':
-      print (model_strict())
-    else:
-      print usage
-  else:
-    print usage
+#    return rev
+    return None

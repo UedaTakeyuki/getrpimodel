@@ -3,4 +3,3 @@ setup.cfg
 setup.py
 getrpimodel/__init__.py
 getrpimodel/__main__.py
-getrpimodel/getrpimodel.py

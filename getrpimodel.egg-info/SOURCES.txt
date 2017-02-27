@@ -1,7 +1,6 @@
 setup.cfg
 getrpimodel/__init__.py
 getrpimodel/__main__.py
-getrpimodel/getrpimodel.py
 getrpimodel.egg-info/PKG-INFO
 getrpimodel.egg-info/SOURCES.txt
 getrpimodel.egg-info/dependency_links.txt
