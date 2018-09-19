@@ -27,3 +27,6 @@ import getrpimodel
 print (getrpimodel.model())
 print (getrpimodel.model_strict())
 ```
+
+### history
+- 2018.09.19_version_0.1.13  add "Zero W", "3 Model B+"
