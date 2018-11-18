@@ -6,6 +6,10 @@ Get Raspberry Pi model Name(eg: A, B, B+...)
 ```bash:
 pip install getrpimodel
 ```
+## installs
+[![Downloads](https://pepy.tech/badge/getrpimodel)](https://pepy.tech/project/getrpimodel)
+[![Downloads](https://pepy.tech/badge/getrpimodel/month)](https://pepy.tech/project/getrpimodel)
+[![Downloads](https://pepy.tech/badge/getrpimodel/week)](https://pepy.tech/project/getrpimodel)
 
 ## return
 String: 'Model Name' same string as the 'Model' column value of the [following Table](http://elinux.org/RPi_HardwareHistory), like as "A", "B", "B+", "2 Model B", "3 Model B" and so on.
@@ -30,3 +34,4 @@ print (getrpimodel.model_strict())
 
 ### history
 - 2018.09.19_version_0.1.13  add "Zero W", "3 Model B+"
+- 2019.11.19_version_0.1.15  add "3 Model A+"

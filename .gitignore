@@ -1,3 +1,5 @@
 *.pyc
 dist
+getrpimodel.egg-info
 .pypirc
+setup.cfg
