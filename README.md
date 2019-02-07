@@ -32,6 +32,9 @@ print (getrpimodel.model())
 print (getrpimodel.model_strict())
 ```
 
-### history
+## C++ version.
+C++ version is also availabel as [here](https://github.com/UedaTakeyuki/GetRPimodel_cpp/blob/master/README.md).
+
+## history
 - 2018.09.19_version_0.1.13  add "Zero W", "3 Model B+"
 - 2018.11.19_version_0.1.15  add "3 Model A+"
