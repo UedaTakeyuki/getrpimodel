@@ -7,7 +7,7 @@ import re
 
 
 # model definition table from revision info.
-# refer http://elinux.org/RPi_HardwareHistory
+# refer https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md
 model_a          = ["0007","0008","0009",]
 model_b          = ["0002","0004","0005","0006","000d","000e","000e",]
 model_b_beta     = ["Beta",]
@@ -21,6 +21,7 @@ model_2b_2837    = ["a22042",]
 model_3b         = ["a02082", "a22082","a32082",]
 model_3a_plus    = ["9020e0",]
 model_3b_plus    = ["a020d3",]
+model_4b         = ["a03111", "b03111", "b03112", "c03111", "c03112"]
 model_zero       = ["900092","900093","920093",]
 model_zero_w     = ["9000c1",]
 
@@ -62,6 +63,8 @@ def model_strict():
     return "3 Model A+"
   elif rev in model_3b_plus:
     return "3 Model B+"
+  elif rev in model_4b:
+    return "4 Model B"
   elif rev in model_zero:
     return "Zero"
   elif rev in model_zero_w:
@@ -89,6 +92,8 @@ def model():
     return "3 Model A"
   elif rev in model_3b + model_3b_plus:
     return "3 Model B"
+  elif rev in model_4b:
+    return "4 Model B"
   elif rev in model_zero + model_zero_w:
     return "Zero"
   else:
