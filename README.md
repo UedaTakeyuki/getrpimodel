@@ -38,3 +38,7 @@ C++ version is also availabel as [here](https://github.com/UedaTakeyuki/GetRPimo
 ## history
 - 2018.09.19_version_0.1.13  add "Zero W", "3 Model B+"
 - 2018.11.19_version_0.1.15  add "3 Model A+"
+- 2020.05.01_version_0.1.16  merge [pr1](https://github.com/UedaTakeyuki/getrpimodel/pull/1) for adding model 4B by [shingon](https://github.com/shingon), thank you!
+- 2020.05.01_version_0.1.16  add "Compute Module 3+"
+- 2020.05.01_version_0.1.16  add missing b+ of rev "900032"
+
