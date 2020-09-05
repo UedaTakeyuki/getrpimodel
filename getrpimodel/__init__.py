@@ -9,7 +9,7 @@ import re
 # model definition table from revision info.
 # refer https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md
 model_a          = ["0007","0008","0009",]
-model_b          = ["0002","0004","0005","0006","000d","000e","000e",]
+model_b          = ["0002","0004","0005","0006","000d","000e","000e","000f",]
 model_b_beta     = ["Beta",]
 model_b_ECN0001  = ["0003",]
 model_cm         = ["0011","0014",]
