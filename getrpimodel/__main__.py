@@ -9,6 +9,6 @@ elif len(sys.argv) == 2:
   if sys.argv[1] == '--s':
     print (getrpimodel.model_strict())
   else:
-    print usage
+    print (usage)
 else:
-  print usage
+  print (usage)
