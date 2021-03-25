@@ -5,6 +5,8 @@
 #import getpirevision
 import re
 
+# setting
+version = "0.1.20"
 
 # model definition table from revision info.
 # refer https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md
@@ -22,7 +24,7 @@ model_2b_2837    = ["a22042",]
 model_3b         = ["a02082", "a22082","a32082",]
 model_3a_plus    = ["9020e0",]
 model_3b_plus    = ["a020d3",]
-model_4b         = ["a03111", "b03111", "b03112", "c03111", "c03112"]
+model_4b         = ["a03111", "b03111", "b03112", "b03114", "c03111", "c03112", "c03114", "d03114"]
 model_zero       = ["900092","900093","920093",]
 model_zero_w     = ["9000c1",]
 
