@@ -27,6 +27,7 @@ model_3b_plus    = ["a020d3",]
 model_4b         = ["a03111", "b03111", "b03112", "b03114", "c03111", "c03112", "c03114", "d03114"]
 model_zero       = ["900092","900093","920093",]
 model_zero_w     = ["9000c1",]
+model_zero_2_w   = ["902120",]
 
 def revision():
   revision = "unknown"
@@ -74,6 +75,8 @@ def model_strict():
     return "Zero"
   elif rev in model_zero_w:
     return "Zero W"
+  elif rev in model_zero_2_w:
+    return "Zero 2 W"
   else:
     return rev
 #    return None
@@ -101,6 +104,8 @@ def model():
     return "4 Model B"
   elif rev in model_zero + model_zero_w:
     return "Zero"
+  elif rev in model_zero_2_w:
+    return "Zero 2"
   else:
 #    return rev
     return None
