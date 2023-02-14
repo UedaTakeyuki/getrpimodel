@@ -45,3 +45,5 @@ C++ version is also availabel as [here](https://github.com/UedaTakeyuki/GetRPimo
 - 2020.09.08_version_0.1.19  merge [issue#3](https://github.com/UedaTakeyuki/getrpimodel/issues/3). Thanks [Fabian Affolter](https://github.com/fabaff)!
 - 2021.03.25_version_0.1.20  add rev 1.4 PCB's of RPi4
 - 2022.02.16_version_0.1.21  merge [issue#4](https://github.com/UedaTakeyuki/getrpimodel/issues/4). Thanks [SimonLamy](https://github.com/SimonLamy)!
+- 2023.02.14_version_0.1.22  merge [issue#5](https://github.com/UedaTakeyuki/getrpimodel/issues/5). Thanks [Sergei Guselnikov](https://github.com/arietis)!
+- 2023.02.14_version_0.1.23  add rev 1.5 PCB's of RPi4

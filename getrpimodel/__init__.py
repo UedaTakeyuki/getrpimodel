@@ -6,7 +6,7 @@
 import re
 
 # setting
-version = "0.1.20"
+version = "0.1.23"
 
 # model definition table from revision info.
 # refer https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md
@@ -24,7 +24,7 @@ model_2b_2837    = ["a22042",]
 model_3b         = ["a02082", "a22082","a32082",]
 model_3a_plus    = ["9020e0",]
 model_3b_plus    = ["a020d3",]
-model_4b         = ["a03111", "b03111", "b03112", "b03114", "c03111", "c03112", "c03114", "c03115", "d03114"]
+model_4b         = ["a03111", "b03111", "b03112", "b03114", "b03115", "c03111", "c03112", "c03114", "c03115", "d03114", "d03115"]
 model_zero       = ["900092","900093","920093",]
 model_zero_w     = ["9000c1",]
 model_zero_2_w   = ["902120",]
