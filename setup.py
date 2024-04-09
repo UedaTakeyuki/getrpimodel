@@ -7,7 +7,7 @@ with open("README.md") as f:
 setup(
   name = 'getrpimodel',
   packages = ['getrpimodel'], # this must be the same as the name above
-  version = '0.1.23',
+  version = '0.1.24',
   description = 'Get Raspberry Pi model Name(eg: A, B, B+...)',
   long_description=long_description,
   long_description_content_type="text/markdown",
