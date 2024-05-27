@@ -6,7 +6,7 @@
 import re
 
 # setting
-version = "0.1.24"
+version = "0.1.25"
 
 # model definition table from revision info.
 # refer https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md

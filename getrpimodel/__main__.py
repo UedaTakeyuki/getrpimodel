@@ -1,5 +1,5 @@
 import sys
-import __init__ as getrpimodel
+import getrpimodel.__init__ as getrpimodel
 
 usage = 'Usage: python {} [--s, --version]'.format(__file__)
 
