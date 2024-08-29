@@ -49,3 +49,4 @@ C++ version is also availabel as [here](https://github.com/UedaTakeyuki/GetRPimo
 - 2023.02.14_version_0.1.23  add rev 1.5 PCB's of RPi4
 - 2024.04.08_version_0.1.24  add rev 1.1 PCB's of 3A+ and CM, rev 1.2 PCB of 2B (with BCM2837), rev 1.3 PCB's of 3B and 3B+, rev 1.4 PCB's of 3B+, rev 1.5 PCB's of 4B, Pi400, CM4, 5
 - 2024.05.27_version_0.1.25  fix [issue#6](https://github.com/UedaTakeyuki/getrpimodel/issues/6).
+- 2024.08.29_version_0.1.26  update.
